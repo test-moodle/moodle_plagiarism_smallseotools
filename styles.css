@@ -1,0 +1,143 @@
+.path-mod-assign .score span.high,
+.path-mod-assign .score span.middle,
+.path-mod-assign .score span.low
+{
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.path-mod-assign .score span.high > span {
+    background: #d30a0a;
+}
+.path-mod-assign .score span.middle > span {
+    background: #b58f04;
+}
+.path-mod-assign .score span.low > span {
+    background: #1ab21e;
+}
+
+.path-mod-assign .score  span.high {
+    color: #d30a0a;
+}
+
+.path-mod-assign .score  span.middle {
+    color: #b58f04;
+}
+
+.path-mod-assign .score  span.low {
+    color: #1ab21e;
+}
+
+.path-mod-assign .score span.high > span,
+.path-mod-assign .score span.middle > span,
+.path-mod-assign .score span.low > span {
+    border-radius: 100%;
+    width: 12px;
+    height: 12px;
+    display: inline-flex;
+    margin-right: 4px;
+}
+
+/* EXTRA STYLE - REMOVE IT*/
+.sst {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    min-width: 200px;
+}
+
+.sst .icon_size {
+    width: 20px;
+    height: auto;
+}
+.sst span.high,
+.sst span.middle,
+.sst span.low {
+    font-weight: 700;
+    text-decoration: none;
+}
+
+
+
+
+
+
+.sst span.strong {
+    font-weight: 500;
+}
+
+.sst-text-gray {
+    color: #1d2125;
+}
+
+.sst-text-warn {
+    color: #d30a0a;
+    font-weight: 600;
+}
+
+.sst-student-disclosure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: #f7f7f7;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: -16px;
+}
+.sst-student-disclosure-checkbox {
+    margin-bottom: 0;
+    margin-left: 5px;
+}
+
+.sst-edit-settings-note {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+a.sst-settings-link:hover {
+    text-decoration: none;
+}
+
+.sst-settings-btn {
+    width: 180px;
+    height: 36px;
+    background-color: #17a1ff;
+    border-radius: 3px;
+    border: none;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sst-resubmit-button {
+    width: 72px;
+    border-radius: 4px;
+    background: #17a1ff;
+    color: #fff;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 22px;
+    border: none;
+    height: 24px;
+    text-align: center;
+}
+
+.student-disclosure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: #f7f7f7;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: -16px;
+}
+
+
